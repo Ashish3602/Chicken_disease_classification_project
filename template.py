@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]:%(message)s:')
 
 
-project_name = "cnnClassifier-Chicken_disease"
+project_name = "cnnClassifier_Chicken_disease"
 list_of_files = [
     ".github/workflows/.gitkeep", #empty folders are not committed so need something in folder
     f"src/{project_name}/__init__.py", #works as local package
@@ -15,7 +15,7 @@ list_of_files = [
     f"src/{project_name}/config/configuration.py",
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/entity/__init__.py",
-    f"src/{project_name}/constants/__init__.py"
+    f"src/{project_name}/constants/__init__.py",
     "config/config.yaml",
     "dvc.yaml",
     "params.yaml",
